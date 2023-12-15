@@ -3,12 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "prepare": "husky install",
-    "generate": "nuxt generate",
-    "build": "nuxt generate",
+    "build": "nuxt build",
     "dev": "nuxt dev",
-    "start": "nuxt start",
-    "gcp-build":""
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
